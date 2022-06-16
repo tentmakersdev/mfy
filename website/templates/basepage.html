@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{%  static 'css/bootstrap.css' %}" media="all">
+    <link rel="stylesheet" href="{%  static 'css/easy-responsive-tabs.css' %}" media="all">
+    <link rel="stylesheet" href="{%  static 'css/font-awesome.css' %}" media="all">
+    <link rel="stylesheet" href="{%  static 'css/intlTelInput.css' %}" media="all">
+    <link rel="stylesheet" href="{%  static 'css/jquery-ui.css' %}" media="all">
+    <link rel="stylesheet" href="{%  static 'css/menu.css' %}" media="all">
+    <link rel="stylesheet" href="{%  static 'css/style.css' %}" media="all">
+
+    <title>{% block title %} {% endblock title %}</title>
+</head>
+<body>
+    {% block content %} {% endblock content %}
+</body>
+</html>
